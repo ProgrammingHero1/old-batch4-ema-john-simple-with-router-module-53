@@ -8,7 +8,7 @@ import useCart from '../../hooks/useCart';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useCart(products);
-    // products to be rendered on the UI
+    // products to be rendered on the UI.
     const [displayProducts, setDisplayProducts] = useState([]);
 
     useEffect(() => {
